@@ -1,0 +1,159 @@
+/* DOCUMENTO CSS - MODELO 3 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body {    
+    font-family: sans-serif;
+    background-color: #F2EEEB;
+    font-family: 'bebas neue', sans-serif;
+}
+header {
+    height: 900px;
+    background-color: red;
+    background-image: url('imagens/midnights.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#menu {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a{
+    font-size: 30px;
+    color: #fff;
+    padding: 16px 130px 15px 130px;
+    font-weight: 800;
+    transition: 0.4s;
+}
+#menu ul li a:hover{
+    color: #000000 ;
+    background-color: #a4a4a4;
+}
+#biografia {
+    
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: F2EEEB;
+    font-size: 150px;
+   
+}
+
+.box {
+    height: 400px;
+    background-color: F2EEEB;
+    padding: 40px;
+}
+.box figure {
+    width: 500px;
+    padding: 0;
+    margin: 0 20px 0 10px;
+    float: left;
+
+}
+.box figure img {
+    width: 100%;
+}
+.box p {
+    padding-top: 50px;
+    margin: 0 40px 0 0;
+    font-size: 20px;
+
+}
+#eras {
+    padding: 30px;
+}
+
+.box1 figure{
+    margin-right: 20px;
+}
+
+.box1 {
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.box1 figure {
+    width: 300px;
+    margin-left: 200px;
+    padding: 0;
+
+}
+.box1 figure img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.box1 div {
+    width: 800px;
+}
+.box1 div p{
+    font-size: 30px;
+}
+
+
+.imgtitulo {
+    height: 200px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+#albuns figure img{
+    padding-top: 100px;
+    width: 1520px;
+}
+
+
+.foto1{
+    align-items: baseline;
+    width: 100px;
+}
+
+
+footer {
+background-color: ##C3DBE7;
+height: 200px;
+padding: 70px;
+text-align: center;
+justify-content: left;
+padding-top: 300px;
+
+}
+
+footer figure {
+width: 50px;
+height: 50px;
+background-color: #696969;
+margin: 0 30px 0 50px;
+padding: 0; }
+
+footer  {
+font-weight: 900;
+font-size: 15px;
+}
+}
+#socialmedias{
+margin-left: 700px;
+padding-top: 20px;
+}
+.fa-brands {
+margin-right: 10px;
+font-size: 20px;
+}
